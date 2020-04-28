@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width,initial-scale=1" name="viewport">
+  <meta content="description" name="description">
+  <meta name="google" content="notranslate" />
+  <meta content="Mashup templates have been developped by Orson.io team" name="author">
+
+  <!-- Disable tap highlight on IE -->
+  <meta name="msapplication-tap-highlight" content="no">
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="./static/assets/apple-icon-180x180.png">
+  <link href="./static/assets/favicon.ico" rel="icon">
+
+  <title>Cruelty-Free Mousetrap</title>  
+
+<link href="./static/main.3f6952e4.css" rel="stylesheet"></head>
+
+<body class="">
+<div id="site-border-left"></div>
+<div id="site-border-right"></div>
+<div id="site-border-top"></div>
+<div id="site-border-bottom"></div>
+<!-- Add your content of header -->
+<header>
+  <nav class="navbar  navbar-fixed-top navbar-default">
+    <div class="container">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+      <div class="collapse navbar-collapse" id="navbar-collapse">
+        <ul class="nav navbar-nav ">
+          <li><a href="./index.html" title="">01 : Home</a></li>
+          <li><a href="./works.html" title="">02 : Works</a></li>
+          <li><a href="./about.html" title="">03 : About me</a></li>
+          <li><a href="./contact.html" title="">04 : Contact</a></li>
+        </ul>
+
+
+          <ul class="nav navbar-nav navbar-right navbar-small visible-md visible-lg">
+            <li><a href="./work.html" title="">001</a></li>
+            <li><a href="./work2.html" title="" class="active">002</a></li>
+            <li><a href="./work3.html" title="">003</a></li>
+            <li><a href="./work4.html" title="">004</a></li>
+            <li><a href="./work5.html" title="">005</a></li>
+            <li><a href="./work6.html" title="">006</a></li>
+          </ul>
+
+
+      </div> 
+    </div>
+  </nav>
+</header>
+<div class="section-container">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <img src="./static/assets/images/banner01.jpg" class="img-responsive" alt="">
+        <div class="card-container">
+          <div class="text-center">
+            <h1 class="h2">002 : Cruelty-Free Mousetrap</h1>
+          </div>
+          <h3><strong>Summary</strong></h3>
+          <p></p>
+
+          <p>In this project, I worked in a group of three students to make a mousetrap that does not harm mouses. The project was inspired by a student in the group, who wanted to find a solution to get rid of mouses where he worked. We used an Arduino, which allows us to use a physical piece of hardware, and program it to do different things.</p>
+          <p>For the project, we made a trap-box from scratch. A shoe box was taken and a small opening door was cut for the mice to fall in. How did the door get triggered? The door was triggered through a sensor. Once the sensor detected that the mouse has stepped on the door, it quickly opens it, and closes it. Assuring the mice has no way out...and of course, not be harmed. This project was later used by a group member to address the mouse problem he encounterd at his work!</p>
+
+          <h3><strong>Contribution</strong></h3>
+          <ul>
+            <li>Lead programmer for Arduino Portion</li>
+            <li>Assembled sensors and wires for the project through breadboarding</li>
+            <li>Programmed a servo to act as a trap door for the mice</li>
+            <li>Troubleshoot C/C++ code</li>
+          </ul>
+          <h3><strong>Languages</strong></h3>
+          <ul>
+            <li>Arduino (C/C++)</li>
+            <li>Assembly</li>
+          </ul>
+          <h3><strong>Images</strong></h3>
+            <ul>
+              <ul><img class = "mySlides responsive" src="./static/assets/images/MT1.jpg" class="img-responsive" alt="" width="650" height="400"></ul>
+              <ul><img class = "mySlides responsive" src="./static/assets/images/MT2.jpg" class="img-responsive" alt="" width="650" height="400"></ul>
+              <ul><img class = "mySlides responsive" src="./static/assets/images/MT3.jpg" class="img-responsive" alt="" width="650" height="400"></ul>
+          </ul>
+          </blockquote>
+        </div>
+      </div>
+
+
+      <div class="col-xs-12">
+        
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+<footer class="footer-container text-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <p>© UNTITLED | Website created with <a href="http://www.mashup-template.com/" title="Create website with free html template">Mashup Template</a>/<a href="https://www.unsplash.com/" title="Beautiful Free Images">Unsplash</a></p>
+      </div>
+    </div>
+  </div>
+</footer>
+<script>
+  document.addEventListener("DOMContentLoaded", function (event) {
+     navActivePage();
+  });
+</script>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 3 seconds
+}
+</script>
+<script>
+  document.addEventListener("DOMContentLoaded", function (event) {
+     navActivePage();
+  });
+</script>
+<style>
+  .responsive {
+  width: 100%;
+  height: auto;
+}
+</style>
+<!-- Google Analytics: change UA-XXXXX-X to be your site's ID 
+
+<script>
+  (function (i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date(); a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+  ga('create', 'UA-XXXXX-X', 'auto');
+  ga('send', 'pageview');
+</script>
+
+--> <script type="text/javascript" src="./static/main.70a66962.js"></script></body>
+
+</html>
