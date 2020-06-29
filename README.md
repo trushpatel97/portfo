@@ -1,4 +1,4 @@
-Link: trushpatel97@pythonanywhere.com 
+Link: trushpatel97.pythonanywhere.com 
 
 Last updated: May 2020
 
